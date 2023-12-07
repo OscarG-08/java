@@ -22,5 +22,10 @@ public class Calculadora {
         String resultado = df.format(dividendo/divisor);
         return Double.valueOf(resultado);
     }
+    public double promediar(double valor1, double valor2, double valor3){
+        DecimalFormat df = new DecimalFormat("#.##");
+        String resultado = df.format((valor1 + valor2 + valor3)/3);
+        return Double.valueOf(resultado);
+    }
     
 }
