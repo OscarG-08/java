@@ -14,5 +14,13 @@ public class Calculadora {
     public double multiplicar(double valor1, double valor2){
         return valor1*valor2;
     }
+    public double dividir(double dividendo, double divisor){
+        if (divisor == 0) {
+            return 0;
+        }
+        DecimalFormat df = new DecimalFormat("#.##");
+        String resultado = df.format(dividendo/divisor);
+        return Double.valueOf(resultado);
+    }
     
 }
