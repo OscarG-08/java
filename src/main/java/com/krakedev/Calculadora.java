@@ -27,5 +27,7 @@ public class Calculadora {
         String resultado = df.format((valor1 + valor2 + valor3)/3);
         return Double.valueOf(resultado);
     }
-    
+    public void mostrarResultado(){
+        System.out.println("Ahorita no joven, sali al almuerzo. Regreso en 15 minutos");
+    } 
 }
