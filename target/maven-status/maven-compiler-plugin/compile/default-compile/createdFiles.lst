@@ -1,6 +1,8 @@
 com\krakedev\Calculadora.class
-com\krakedev\Producto.class
-com\krakedev\TestCalculadora.class
 com\krakedev\TestAuto.class
 com\krakedev\Auto.class
+com\krakedev\Producto.class
+com\krakedev\TestCalculadora.class
+com\krakedev\TestRectangulo.class
+com\krakedev\Rectangulo.class
 com\krakedev\TestProducto.class
